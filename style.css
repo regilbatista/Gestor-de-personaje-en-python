@@ -1,0 +1,103 @@
+ #principal{
+            border: solid 1px black;
+            margin:0 auto;
+            width: 80%;
+            background: white;
+        
+        }
+        #secundario{
+            
+            width: 850px;
+            margin: 1.6em 80px;
+        }
+
+
+        body{
+                font-family: 'EB Garamond';
+                font-size: 1.2rem ;
+                background: url(https://freepikpsd.com/file/2019/10/fondo-tecnologia-png-1-Transparent-Images-Free.png);
+
+            
+        }
+        
+        #boton{
+            
+            background-color: #229ED9;
+            color: white;
+            font-size: 15px;
+          padding: px 10px;
+            width: 100px;
+            border-radius: 20px ;
+            border: #229ED9;
+        }
+        
+        #line{
+             width: 80%;
+             margin:0 auto;
+        }
+h1{
+    display: inline-block;
+    position: relative;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+}
+
+        #linea{
+            display: inline-block;
+    position: relative;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+            
+        }
+        #linea::after,#linea::before{
+    content:"";
+    position: absolute;
+     width: 120px;
+    height: 3px;
+    background-color: currentColor;
+    top:0.6em;
+}
+
+#linea::before{
+      left: -140px;
+}
+#linea::after{
+     right: -140px;
+}
+        h3{
+    display: inline-block;
+    position: relative;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+   
+}
+        h3::after,h3::before{
+    content:"";
+    position: absolute;
+    width: 300px;
+    height: 2px;
+    background-color: currentColor;
+    top:0.6em;
+}
+
+h3::before{
+    left: -140px;
+}
+h3::after{
+    right: -140px;}
+        
+h1::after,h1::before{
+    content:"";
+    position: absolute;
+    width: 300px;
+    height: 3px;
+    background-color: currentColor;
+    top:0.6em;
+}
+
+h1::before{
+    left: -320px;
+}
+h1::after{
+    right: -320px;
+}
